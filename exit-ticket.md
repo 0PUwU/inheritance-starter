@@ -44,15 +44,15 @@ my_ai.learn()
 Answer these questions about the code snippet:
 
 1. What is the relationship between the Human and AI classes?
-   
+    The human class is the superclass or parent class of the AI class.
 2. How does the `__init__()` method in the AI class use the `super()` function?
-   
+    It grabs the parent initialization function for (name, age, occupation)
 3. How does the output of the `think()` and `communicate()` methods differ between the Human and AI instances?
-      
+      The think and communicate in both human and AI classes print text, but the AI runs its own version because AI needs to perform a task online and communicate digitally.
 4. Which attributes will the AI class get/grab from the Human class?
-    
+    it grabs the __init__ from Human for the (name, age, occupation).
 5. Which attribute belongs specifically to the AI class?
-    
+intelligence level
 6. How many attributes **total** will an instance of the AI class have?
-
+5
 ---

@@ -60,13 +60,20 @@ Run the script.  Did your predictions match the output?  Why or why not?
 Answer these questions about the code snippet:
 
 1. What is the relationship between the Human and AI classes?
-2. How does the `__init__()` method in the AI class use the `super()` function?
+The AI class grabs the initialization from the human class for (self, name, age, occupation).
+2. How does the `__init__()` method in the AI class use the `super()` function? It can only use the super function because it has a parent class that has already defined an __init__.
 3. What is the purpose of the `think()` and `communicate()` methods in both the Human and AI classes?
+To display the state of the AI and Human classes.
 4. How does the output of the `think()` and `communicate()` methods differ between the Human and AI instances?
+The output for the AI think function have to reference online, while the human just thinks deeply, and the communicate is digital for the AI, and clearly for human because the human is in the real world.
 5. What is the purpose of the `learn()` method in the AI class?
+To better the abilities of the AI.
 6. Which attributes will the AI class get/grab from the Human class?
+(self, name, age, occupation).
 7. Which attribute belongs specifically to the AI class?
+intelligence_level
 8. How many attributes **total** will an instance of the AI class have?
+5
 
 ---
 
